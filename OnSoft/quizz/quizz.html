@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios</title>
+  <link rel="stylesheet" type="text/css" href="../Inicio/estilos.css">
+  <script src="quizz.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <a href="/Inicio/inicio.html" class="logo">
+      <img src="../imagenes/logo-fotor-2023062021458.png" alt="Logo">
+      <h2 class="nombre-pagina">On Soft</h2>
+    </a>
+    <nav>
+      <a href="../Inicio/inicio.html" class="nav-link">Inicio</a>
+      <a href="../HTML/HTML.html" class="nav-link">HTML</a>
+      <a href="../CSS/CSS.html" class="nav-link">CSS</a>
+      <a href="../JS/JS.html" class="nav-link">JavaScript</a>
+      <a href="../quizz/quizz.html" class="nav-link">Quizz</a>
+  </nav>
+  </header>
+
+
+  <h3 class="pruebaHtml">Prueba HTML</h3>
+  <br>
+
+  <strong>Pregunta N°1</strong>
+  <form>
+
+    <p>¿Cuál es la etiqueta utilizada para crear un enlace en HTML?</p>
+    <input type="text" id="inputText1"> <br>
+    <button class="btn-html" type="button" onclick="enviar1()">enviar</button>
+  </form>
+  <p id="respuesta1"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°2</strong>
+  <form>
+    <p>¿Cuál es la etiqueta utilizada para definir una lista no ordenada en HTML?</p>
+    <input type="text" id="inputText2"> <br>
+
+    <button class="btn-html" type="button" onclick="enviar2()">enviar</button>
+  </form>
+  <p id="respuesta2"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°3</strong>
+  <form>
+    <p>¿Cuál es la etiqueta utilizada para insertar una imagen en HTML?</p>
+    <input type="text" id="inputText3"> <br>
+
+    <button class="btn-html" type="button" onclick="enviar3()">enviar</button>
+  </form>
+  <p id="respuesta3"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°4</strong>
+  <form>
+    <p>¿Cuál es la etiqueta utilizada para definir un encabezado de nivel 1 en HTML?</p>
+    <input type="text" id="inputText4"> <br>
+
+    <button class="btn-html" type="button" onclick="enviar4()">enviar</button>
+  </form>
+  <p id="respuesta4"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°5</strong>
+  <form>
+    <p>¿Cuál es la etiqueta utilizada para crear un párrafo en HTML?</p>
+    <input type="text" id="inputText5"> <br>
+
+    <button class="btn-html" type="button" onclick="enviar5()">enviar</button>
+  </form>
+  <p id="respuesta5"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+
+  <h3 class="pruebaCss">Prueba CSS</h3>
+  <br>
+
+
+  <strong>Pregunta N°1</strong>
+  <form>
+    <p>¿Cuál es la propiedad de CSS que se utiliza para cambiar el color de fondo de un elemento?</p>
+    <input type="text" id="inputText6"> <br>
+
+    <button class="btn-css" type="button" onclick="enviar6()">enviar</button>
+  </form>
+  <p id="respuesta6"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°2</strong>
+  <form>
+    <p>¿Cuál es la propiedad de CSS que se utiliza para establecer el tamaño de fuente de un elemento?</p>
+    <input type="text" id="inputText7"> <br>
+
+    <button class="btn-css" type="button" onclick="enviar7()">enviar</button>
+  </form>
+  <p id="respuesta7"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°3</strong>
+  <form>
+    <p>¿Cuál es la propiedad de CSS que se utiliza para alinear el texto en el centro horizontalmente?</p>
+    <input type="text" id="inputText8"> <br>
+
+    <button class="btn-css" type="button" onclick="enviar8()">enviar</button>
+  </form>
+  <p id="respuesta8"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°4</strong>
+  <form>
+    <p>¿Cuál es la propiedad de CSS que se utiliza para agregar un borde a un elemento?</p>
+    <input type="text" id="inputText9"> <br>
+
+    <button class="btn-css" type="button" onclick="enviar9()">enviar</button>
+  </form>
+  <p id="respuesta9"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°5</strong>
+  <form>
+    ¿Cuál es la propiedad de CSS que se utiliza para cambiar el tamaño de ancho o alto de un elemento? <br>
+    <input type="text" id="inputText10"> <br>
+
+    <button class="btn-css" type="button" onclick="enviar10()">enviar</button>
+  </form>
+  <p id="respuesta10"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+
+  <h3 class="pruebaJavascript">Prueba JavaScript</h3>
+  <br>
+
+
+  <strong>Pregunta N°1</strong>
+  <form>
+    <p>¿Cómo se declara una variable en JavaScript?</p>
+    <input type="text" id="inputText11"> <br>
+
+    <button class="btn-js" type="button" onclick="enviar11()">enviar</button>
+  </form>
+  <p id="respuesta11"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°2</strong>
+  <form>
+    <p>¿Cómo se obtiene la longitud de una cadena en JavaScript?</p>
+    <input type="text" id="inputText12"> <br>
+
+    <button class="btn-js" type="button" onclick="enviar12()">enviar</button>
+  </form>
+  <p id="respuesta12"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°3</strong>
+  <form>
+    <p>¿Cómo se agrega un elemento al final de un arreglo en JavaScript?</p>
+    <input type="text" id="inputText13"> <br>
+
+    <button class="btn-js" type="button" onclick="enviar13()">enviar</button>
+  </form>
+  <p id="respuesta13"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°4</strong>
+  <form>
+    <p>¿Cómo se realiza una concatenación de cadenas en JavaScript?</p>
+    <input type="text" id="inputText14"> <br>
+
+    <button class="btn-js" type="button" onclick="enviar14()">enviar</button>
+  </form>
+  <p id="respuesta14"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+  <strong>Pregunta N°5</strong>
+  <form>
+    <p>Mencione alguno de los bucles existentes en JavaScript</p>
+    <input type="text" id="inputText15"> <br>
+
+    <button class="btn-js" type="button" onclick="enviar15()">enviar</button>
+  </form>
+  <p id="respuesta15"></p>
+  <!---------------------------------------------- separador------------------------------------------>
+  <br>
+
+
+
+  <footer>
+    <p>© Carlos Lasso, Diana Ramirez <strong>Desarrolladores Web </strong><br><br>
+      <strong>Web Alojada en: </strong> GitHub Pages</p>
+    <a href="inicio.html" class="logo">
+      <a href="https://www.facebook.com/dianalucia.ramirezmoya?mibextid=ZbWKwL" target="_blank">
+        <img class="redes" src="../imagenes/face2.png"></a>
+
+      <a href="https://instagram.com/carlos_lasso_?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+        <img class="redes" src="../imagenes/instagram.png"></a>
+
+      <a href="https://discord.gg/tsYEwTB7" target="_blank">
+        <img class="redes" src="../imagenes/discordia.png"></a>
+    </a>
+  </footer>
+</body>
+
+</html>

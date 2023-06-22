@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Inicio/estilos.css">
+    <title>CSS Links</title>
+</head>
+
+<!--Barra de navegación-->
+
+<header>
+        <a href="../Inicio/inicio.html" class="logo">
+            <img src="../imagenes/logo-fotor-2023062021458.png" alt="Logo">
+            <h2 class="nombre-pagina">On Soft</h2>
+        </a>
+        <nav>
+            <a href="../Inicio/inicio.html" class="nav-link">Inicio</a>
+            <a href="/HTML/HTML.html" class="nav-link">HTML</a>
+            <a href="../CSS/CSS.html" class="nav-link">CSS</a>
+            <a href="../JS/JS.html" class="nav-link">JavaScript</a>
+            <a href="../quizz/quizz.html" class="nav-link">Quizz</a>
+        </nav>
+    </header>
+
+<!--Cuerpo-->
+
+<body>
+    <section id="inicio">
+        <div class="espCSS">
+            <h1>Links</h1>
+        </div>
+        <div class="divp">
+            <strong><p class="pti">"Con CSS, los enlaces se pueden diseñar de muchas maneras diferentes."</p></strong>
+            <p class="pte">
+                Si solo desea diseñar un tipo de entrada específico, puede usar selectores de atributos.<br>
+                demás, los enlaces pueden tener un estilo diferente según el estado en el que se encuentren. <br><br>
+
+                Los cuatro estados de enlace son:
+                
+                <ul class="pte">
+                    <li>a:link- un enlace normal, no visitado</li>
+                    <li>a:visited- un enlace que el usuario ha visitado</li>
+                    <li>a:hover- un enlace cuando el usuario pasa el mouse sobre él</li>
+                    <li>a:active- un enlace en el momento en que se hace clic</li>
+                </ul>
+
+                Al establecer el estilo para varios estados de enlace, existen algunas reglas de orden:
+
+                <ul class="pte">
+                    <li>a:hover DEBE venir después de a:link y a:visited</li>
+                    <li>a:visited- un enlace que el usuario ha visitado</li>
+                    <li>a:active DEBE venir después de a:hover</li>
+                </ul>
+            </p>
+            <footer>
+                <p>© Carlos Lasso, Diana Ramirez <strong>Desarrolladores Web </strong><br><br>
+                    <strong>Web Alojada en: </strong> GitHub Pages</p>
+                <a href="inicio.html" class="logo">
+                    <a href="https://www.facebook.com/dianalucia.ramirezmoya?mibextid=ZbWKwL" target="_blank">
+                        <img class="redes" src="../imagenes/face2.png"></a>
+        
+                    <a href="https://instagram.com/carlos_lasso_?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+                        <img class="redes" src="../imagenes/instagram.png"></a>
+        
+                    <a href="https://discord.gg/tsYEwTB7" target="_blank">
+                        <img class="redes" src="../imagenes/discordia.png"></a>
+                </a>
+            </footer>
+        </div>
+    </section>
+    
+</body>
+</html>
